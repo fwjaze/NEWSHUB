@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Web Design Principle</title>
+    <link rel="stylesheet" href="DASHBOARD.html"></href>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #1E90FF;
+        }
+        header {
+            background: #03254C;    
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000; 
+        }
+        header h1 {
+            font-family: 'Merriweather', serif; 
+            font-size: 24px; 
+            margin: 0; 
+        }
+        nav {
+            background: #1167b1;
+            padding: 0.8rem;
+            text-align: center;
+            position: relative;
+        }
+        nav a {
+            color: white;
+            margin: 0.2rem;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            justify-content: space-between; 
+        }
+        section {
+            flex: 2;
+            padding: 20px;
+            background: white;
+            margin-right: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+        section h2 {
+            font-family: 'Merriweather', serif; 
+            font-size: 22px; 
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        a:visited {
+            color: rgba(194, 192, 192, 0.856);
+        }
+        
+        footer {
+            background: #03254C;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+            position: relative;
+        }
+        article {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+        article h3 {
+            font-family: 'Merriweather', serif; 
+            font-size: 20px; 
+            margin: 0; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Today's Headlines: News That Matters!</h1>
+        <p>Fresh News! Everywhere, Anywhere</p>
+    </header>
+
+    <nav>
+        <a href="INDEX.html">HOME</a>
+        <a href="DASHBOARD.html">DASHBOARD</a>
+        <a href="ABOUT.html">ABOUT</a>
+        <a href="CONTACT.html">CONTACT</a>
+		<a href="GALLERY.html">GALLERY</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Hot News</h2>
+            <article>
+                <h3>House members assert: 'Impeach' rule followed</h3>
+                <p>MANILA, Philippines — One of the 11 House members chosen to prosecute impeached Vice President Sara Duterte in her Senate trial on Thursday...</p>
+                <a href="https://newsinfo.inquirer.net/2036737/house-members-assert-impeach-rule-followed">Read more</a>
+            </article>
+
+            <article>
+                <h3>Sports News</h3>
+                <p>PVL: Struck by first loss, Creamline rises to seal No. 1 seed</p>
+                <a href="https://www.bing.com/search?pglt=2083&q=PVL%3A+Struck+by+first+loss%2C+Creamline+rises+to+seal+No.+1+seed&cvid=13ee5b7334f14961a3b65bb3d1ec60d0&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRg60gEHOTU5ajBqMagCALACAA&FORM=ANNTA1&PC=ACTS">Read more</a>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Today's Paper</h2>
+            <p>Listed Below!</p>
+
+            <h3>Popular Topics</h3>
+            <ul>
+                <li><a href="https://newsinfo.inquirer.net/">Hot News!</a></li>
+                <li><a href="https://sports.inquirer.net/">Sports News!</a></li>
+                <li><a href="https://globalnation.inquirer.net/">International and Local News!</a></li>
+            </ul> 
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My News, Your News</p>
+    </footer>
+</body>
+</html>
