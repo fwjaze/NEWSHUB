@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Layout</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+       
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        .gallery img, .gallery video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h2>Media Gallery</h2>
+    <div class="gallery">
+ 
+        <img src="BESTSITE.png" alt="Image 1">
+        <img src="30YEAR.png" alt="Image 2">
+        <img src="CMMA.png" alt="Image 3">
+        <img src="AWARD.png" alt="Image 4">
+		
+        <video controls>
+            <source src="BESTSITE.mp4" type="video/mp4">
+            
+        </video>
+        <video controls>
+            <source src="30YEAR.mp4" type="video/mp4">
+			
+       </video>
+        <video controls>
+            <source src="CMMA.mp4" type="video/mp4">			
+            
+        </video>
+        <video controls>
+            <source src="DSWD.mp4" type="video/mp4">
+            
+            
+        </video>
+    </div>
+</body>
+</html>
